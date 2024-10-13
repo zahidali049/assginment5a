@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registration Form</h1>
+        <p>
+            Of course, all submitted information is kept in the strictest confidence.<br>
+            You always retain control of your information with D.W. Simpson & Co.<br>
+            <strong>Our services are always at no cost to you.</strong>
+        </p>
+    
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+    
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+    
+            <div class="half-width">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+            </div>
+    
+            <div class="half-width">
+                <label for="state">State/Province:</label>
+                <input type="text" id="state" name="state">
+            </div>
+    
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" name="zip">
+    
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country">
+    
+            <label for="phoneH">Phone (H):</label>
+            <input type="text" id="phoneH" name="phoneH">
+    
+            <label for="fax">Fax:</label>
+            <input type="text" id="fax" name="fax">
+    
+            <label for="phoneW">Phone (W):</label>
+            <input type="text" id="phoneW" name="phoneW">
+            <small>(If able to speak freely)</small>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+    
+            <label for="company">Company Name: (optional)</label>
+            <input type="text" id="company" name="company">
+    
+            <label for="region">Desired Region:</label>
+            <select id="region" name="region">
+                <option value="other">Other</option>
+                <option value="volvo">Karachi</option>
+                <option value="saab">Islamabad</option>
+                <option value="opel">Lahore</option>
+                <option value="audi">Uk</option>
+            </select>
+            <input type="text" id="regionOther" name="regionOther" placeholder="Other">
+    
+            <label>Professional designations earned:</label><br>
+            <input type="checkbox" name="designation" value="College Student"> College Student
+            <input type="checkbox" name="designation" value="Actuarial Student"> Actuarial Student
+            <input type="checkbox" name="designation" value="ACAS"> ACAS
+            <input type="checkbox" name="designation" value="FCAS"> FCAS
+            <input type="checkbox" name="designation" value="ASA"> ASA
+            <input type="checkbox" name="designation" value="FSA"> FSA
+            <input type="checkbox" name="designation" value="EA"> EA
+            <input type="checkbox" name="designation" value="CFA"> CFA
+            <input type="checkbox" name="designation" value="MBA"> MBA>
+            <input type="checkbox" name="designation" value="MAAA"> MAAA
+            <input type="checkbox" name="designation" value="FIA"> FIA
+            <input type="checkbox" name="designation" value="FCIA"> FCIA
+            <input type="checkbox" name="designation" value="FIAA"> FIAA
+            <input type="checkbox" name="designation" value="Financial Engineer"> Financial Engineer
+            <input type="checkbox" name="designation" value="MS"> M.S.
+            <input type="checkbox" name="designation" value="PhD"> Ph.D.<br>
+            <input type="checkbox" name="designation" value="Data Mining"> Data Mining
+            <input type="checkbox" name="designation" value="Quant"> Quant
+    
+            <label for="otherDesignation">Other Designations:</label>
+            <input type="text" id="otherDesignation" name="otherDesignation">
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+
+</body>
+</html>
